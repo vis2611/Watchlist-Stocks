@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, Plus, Trash2, Star, Search, BarChart3, AlertCircle } from 'lucide-react';
 
-const API_BASE = import.meta?.env?.VITE_API_URL || 'http://localhost:3000';
+const API_BASE = 'https://watchlist-stocks.onrender.com' || 'http://localhost:3000';
 
 
 export default function Stock() {
